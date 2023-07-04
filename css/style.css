@@ -22,7 +22,7 @@ body{
 }
 
 .hero{
-    background-image: linear-gradient(to right, rgba(67, 233, 122, 0.712) 0%, rgba(56, 249, 214, 0.719) 100%), url("../img/IMG-20221222-WA0052.jpg");
+    background-image: linear-gradient(to right, rgba(67, 233, 122, 0.712) 0%, rgba(56, 249, 214, 0.719) 100%), url("../imagenes/IMG-20221222-WA0052.jpg");
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
