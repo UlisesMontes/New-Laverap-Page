@@ -74,7 +74,7 @@ body{
     width: 90%;
     max-width: 1000px;
     overflow: hidden;
-    margin: auto;
+    margin:auto;
     padding: 0 0 80px 0;
 }
 
@@ -105,16 +105,19 @@ body{
 }
 
 .website.img{
-    width: 48%
+    width: 48%;
 }
 
 .website .contenedor-textos-main{
-    width: 40%
+    width: 40%;
+    padding-left: 10%;
 }
 
 .parrafo{
     text-align: justify;
     margin-bottom: 20px;
+    padding-left: 0%;
+    padding-right: 10%;
 }
 
 .cta{
@@ -130,7 +133,7 @@ body{
 
 .info{
     background: #08f;
-    color:#fff
+    color:#fff;
 }
 
 /*Cards*/
@@ -172,7 +175,7 @@ body{
 /*Galeria*/
 
 .galeria{
-    background: #f2f2f2
+    background: #f2f2f2;
 }
 
 .galeria-cont{
@@ -255,7 +258,7 @@ justify-content: space-around;
  @media screen and (max-width: 800px){
     .textos-hero h1{
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
     }
     .titulo{
         font-size: 35px;
@@ -265,6 +268,11 @@ justify-content: space-around;
     }
     .info p{
         text-align: center;
+        font-size: 30px;
+    }
+    .parrafo{
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     /*Section*/
@@ -280,7 +288,11 @@ justify-content: space-around;
     }
 
     .website .contendeor-textos-main{
-        width: 100%;
+        width: 50%;
+        padding: 0px;
+    }
+    .titulo2.parrafo{
+        padding-left: 40px;
     }
 
     /*Cards*/
@@ -304,7 +316,7 @@ justify-content: space-around;
     }
     .contenedor-textos-main{
         width:98px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         flex-direction: column-reverse;
     }
 
@@ -323,7 +335,8 @@ justify-content: space-around;
 
     .textos-hero p{
         font-size: 20px;
-        text-align: center;
+        text-align: justify;
+        
     }
 
     .card{
@@ -332,6 +345,7 @@ justify-content: space-around;
 
     .website .contenedor-textos-main{
         margin-bottom: 20px;
+        margin-left: 20px;
         text-align: center;
     }
 
@@ -343,7 +357,8 @@ justify-content: space-around;
         min-width: 100px;
     }
     .parrafo{
-        padding: 10%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
  }
